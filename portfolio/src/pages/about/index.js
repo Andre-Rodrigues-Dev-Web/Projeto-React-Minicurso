@@ -1,8 +1,28 @@
+//Components diretos
+import { Cardmd } from '../../components/cards'
+
+
+//Styled Components
+
+import{
+  Row
+} from '../../components/grids/style'
+
+import {
+  Wrap
+} from './style'
+
 function About() {
     return (
-      <section>
-         <h2>Este sou eu, um cara que ama Dragonball-Z</h2>
-      </section>
+      <Wrap>
+        <article>
+          <Row>
+            <Cardmd
+              titlecard="Sobre o minicurso?"
+            />
+          </Row>
+        </article>
+      </Wrap>
     );
   }
   

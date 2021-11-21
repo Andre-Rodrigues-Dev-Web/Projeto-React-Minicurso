@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# ignorar as pastas
+
+/src/basecss/estilo.css

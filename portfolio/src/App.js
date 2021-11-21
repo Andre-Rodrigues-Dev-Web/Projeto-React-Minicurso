@@ -23,7 +23,7 @@ function App() {
       <Template>
         <Menu/>
         <Switch>
-          <Route path="/home">
+          <Route path="/" exact={true}>
             <Home />
           </Route>
           <Route path="/about">

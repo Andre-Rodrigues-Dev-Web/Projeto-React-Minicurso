@@ -1,7 +1,7 @@
 import style from 'styled-components';
 
 const Containermenu = style.nav`
-    background-color: #fff;
+    background-color: #333;
     border-bottom: 1px solid #333;
     display: flex;
     flex-direction: row;

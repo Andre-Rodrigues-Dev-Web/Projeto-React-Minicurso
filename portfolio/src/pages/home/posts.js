@@ -1,6 +1,9 @@
+
+//Posts
 const posts = [
     {
         id: 1, 
+        imagecard: '../../imagens/backgrounds/react-1.png',
         title: 'O que você vai aprender?', 
         content: 'Você irá aprender a desenvolver aplicações React do zero, usar libs e frameworks do ecossistema da lib, realizar testes e entender alguns modelos de arquitetura.'
     },

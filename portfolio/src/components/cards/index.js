@@ -9,7 +9,7 @@ function Card(propscard) {
         className="bg-dark text-white"
       >
         <div className="card-header">
-            <img className="card-img" src="holder.js/100x180/" alt=""/>
+            <div className="imagem"></div>
         </div>
         <div className="card-body">
             <h3 className="card-title">{propscard.titlecard}</h3>

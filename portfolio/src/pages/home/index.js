@@ -1,4 +1,4 @@
-import { Card, Cardmd} from '../../components/cards';
+import { Card } from '../../components/cards';
 
 //Styled Components
 import{
@@ -24,7 +24,7 @@ function Home(props) {
       <main>
         <Row>
           {posts.map( (post, index) => 
-            <Card key={index}
+            <Card key={index} 
              titlecard={ post.title }
              descriptioncard={ post.content }
             />
